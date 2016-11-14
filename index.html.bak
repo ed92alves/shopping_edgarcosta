@@ -1,7 +1,6 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" >
-
 	<title>Farfetch Challenge</title>
 	<meta name="description" content="Application for Farfetch UI Developer challenge">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
@@ -9,6 +8,7 @@
 	<script src="js/angular.min.js"></script>
 	<script src="js/custom.js"></script>
 	<link href="css/custom.css" rel="stylesheet">
+	<link rel="shortcut icon" href="files/favicon.png" type="image/x-icon">
 </head>
 
 
@@ -43,9 +43,9 @@
 				</div>
 				<button ng-click="add(product.id)"> Add to Bag </button> 
 			
+			</div>
 		</div>
 	</div>
-</div>
 
 <div class="shoppingBag" > 
 	<div class="summary">

@@ -25,12 +25,12 @@ app.controller('farfetchController', function ($scope, $compile) {
 		
 		if(promotion.length !=2)
 		{
-			$('.bag').append('<div id="id'+id+'" class="product"><img  class="social" style="text-align:center" src="images/'+id+'.jpg"  class="img-rounded img-responsive" ><div class="creator" >'+creator+'</div><p><div class="description"> </div> <p><div class="price"><div class="oldprice" > '+oldprice+'</div><div class="pricefinal pricefinalred" ng-show="product.old_price">'+price+'</div> <div class="promotion" >'+promotion+'</div> </div><button onclick="remove('+id+')"> Remove from Bag </button> </div>');	
+			$('.bag').append('<div id="id'+id+'" class="product"><img  class="social" style="text-align:center" src="images/'+id+'.jpg"  class="img-rounded img-responsive" ><div class="creator" >'+creator+'</div><p><div class="description"> </div><p><div class="description">'+description+' </div><p><div class="price"><div class="oldprice" > '+oldprice+'</div><div class="pricefinal pricefinalred" ng-show="product.old_price">'+price+'</div> <div class="promotion" >'+promotion+'</div> </div><button onclick="remove('+id+')"> Remove from Bag </button> </div>');	
 		}
 		
 		else
 		{
-			$('.bag').append('<div id="id'+id+'" class="product"><img  class="social" style="text-align:center" src="images/'+id+'.jpg"  class="img-rounded img-responsive" ><div class="creator" >'+creator+'</div><p><div class="description"> </div> <p><div class="price"><div class="pricefinal" >'+price+'</div> </div><button onclick="remove('+id+')"> Remove from Bag </button> </div>');
+			$('.bag').append('<div id="id'+id+'" class="product"><img  class="social" style="text-align:center" src="images/'+id+'.jpg"  class="img-rounded img-responsive" ><div class="creator" >'+creator+'</div><p><div class="description"> </div><p><div class="description">'+description+' </div><p><div class="price"><div class="pricefinal" >'+price+'</div> </div><button onclick="remove('+id+')"> Remove from Bag </button> </div>');
 		}
 
 		 $(".MyBag #id"+id+" button").attr("disabled", true);
