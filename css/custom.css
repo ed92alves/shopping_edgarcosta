@@ -105,6 +105,7 @@ h1:nth-of-type(2)
 	letter-spacing: 2.2px;
 	font-family:'polariscondensed';
 	font-size: 13px; 
+	line-height: 1.5;
 }
 
 .mybag, .bag{
@@ -160,6 +161,7 @@ b {
 	font-family:'polaris';
 	font-size:13px; 
 	letter-spacing: 0px;
+	line-height: 1.5;
 }
 
 button:hover{
